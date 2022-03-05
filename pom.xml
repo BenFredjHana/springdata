@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.sip</groupId>
 	<artifactId>amsdata</artifactId>
-	<packaging>war</packaging>
+	<!-- <packaging>war</packaging> -->
 	<version>0.0.1-SNAPSHOT</version>
 	<name>amsdata</name>
 	<description>Spring Boot Project - Data Layer</description>
@@ -58,19 +58,19 @@
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
 		</dependency>
-		<!-- classes nécéssaires à la partie authentication -->
+		<!-- classes necessaires a la partie authentication -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-web</artifactId>
 		</dependency>
 
-		<!-- permettre à thymeleaf d'accéder à la couche sécurity -->
+		<!-- permettre a thymeleaf d'acceder a la couche security -->
 		<dependency>
 			<groupId>org.thymeleaf.extras</groupId>
 			<artifactId>thymeleaf-extras-springsecurity5</artifactId>
 		</dependency>
 
-		<!-- classes nécéssaires à la partie à gestion des roles -->
+		<!-- classes necessaires a la partie a gestion des roles -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-config</artifactId>
